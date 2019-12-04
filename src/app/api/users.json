@@ -1,0 +1,78 @@
+[
+  {
+    "userId": 2,
+    "username": "mguigard",
+    "password": "$2a$12$Fd3JOWAGzM7M5KngIyjAsuwhABL7107wukqk.sY475tKNVXw3cZre",
+    "firstName": "DJALAL",
+    "lastName": "TABET",
+    "email": "b_tabet@esi.dz",
+    "phone": "0768010364",
+    "enabled": true,
+    "primaryAccount": {
+      "id": 1,
+      "accountNumber": 11223146,
+      "accountBalance": 466
+    },
+    "savingsAccount": {
+      "id": 1,
+      "accountNumber": 11223147,
+      "accountBalance": 69
+    },
+    "recipientList": [
+      {
+        "id": 1,
+        "name": "AIT ARKOUB MALIKA",
+        "email": "tabetmalika13@gmail.com",
+        "phone": "0758560429",
+        "accountNumber": "121212",
+        "description": "12"
+      }
+    ],
+    "authorities": [
+      {
+        "authority": "ROLE_USER"
+      }
+    ],
+    "accountNonLocked": true,
+    "accountNonExpired": true,
+    "credentialsNonExpired": true
+  },
+  {
+    "userId": 3,
+    "username": "admin",
+    "password": "$2a$12$Fd3JOWAGzM7M5KngIyjAsuwhABL7107wukqk.sY475tKNVXw3cZre",
+    "firstName": "admin",
+    "lastName": "admin",
+    "email": "tabetmalika13@gmail.com",
+    "phone": "0758560429",
+    "enabled": true,
+    "primaryAccount": {
+      "id": 4,
+      "accountNumber": 11223147,
+      "accountBalance": 45004147
+    },
+    "savingsAccount": {
+      "id": 2,
+      "accountNumber": 11223148,
+      "accountBalance": 5444
+    },
+    "recipientList": [
+      {
+        "id": 2,
+        "name": "DJALAL BELAID TABET",
+        "email": "b_tabet@esi.dz",
+        "phone": "0768010364",
+        "accountNumber": "121212",
+        "description": "4545"
+      }
+    ],
+    "authorities": [
+      {
+        "authority": "ROLE_ADMIN"
+      }
+    ],
+    "accountNonLocked": true,
+    "accountNonExpired": true,
+    "credentialsNonExpired": true
+  }
+]
