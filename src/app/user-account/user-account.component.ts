@@ -18,7 +18,7 @@ export class UserAccountComponent implements OnInit {
   }
 
   getUsers() {
-    this.userService.getUsersFormAPIwithCache().subscribe( //getUsersFormAPIwithCache ou getUsersFromAPI ou
+    this.userService.getUsers().subscribe( //getUsersFormAPIwithCache ou getUsersFromAPI ou
       res => {
         this.userList = JSON.parse(JSON.parse(JSON.stringify(res))._body);
       },
